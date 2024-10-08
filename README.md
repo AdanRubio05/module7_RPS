@@ -1,2 +1,2 @@
 # rockpaperscissors
-this is a copy/paste thing
+Module 7 Game
