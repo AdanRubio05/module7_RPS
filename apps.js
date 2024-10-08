@@ -2,7 +2,7 @@ const game = () => {
     let pScore = 0;
     let cScore = 0;
   
-    //Start the Game
+    //Game Start Screen
     const startGame = () => {
       const playBtn = document.querySelector(".intro button");
       const introScreen = document.querySelector(".intro");
@@ -35,7 +35,7 @@ const game = () => {
           const computerChoice = computerOptions[computerNumber];
   
           setTimeout(() => {
-            //Here is where we call compare hands
+            //Where we call compare hands
             compareHands(this.textContent, computerChoice);
             //Update Images
             playerHand.src = `./assets/${this.textContent}.png`;
